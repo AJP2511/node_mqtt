@@ -1,0 +1,23 @@
+{
+  "name": "node_mqtt",
+  "version": "1.0.0",
+  "description": "this program will teste nodejs and mqtt broker",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJP2511/node_broker.git"
+  },
+  "author": "Allan Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJP2511/node_broker/issues"
+  },
+  "homepage": "https://github.com/AJP2511/node_broker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mqtt": "^4.2.4"
+  }
+}
